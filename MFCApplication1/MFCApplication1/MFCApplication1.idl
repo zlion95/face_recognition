@@ -1,0 +1,29 @@
+// MFCApplication1.idl : MFCApplication1.exe 的类型库源
+
+// 此文件将由 MIDL 编译器处理以产生
+// 类型库(MFCApplication1.tlb)。
+
+[ uuid(A7211F94-F9F1-4121-B3FD-737AD3635BA3), version(1.0) ]
+library MFCApplication1
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	//  CMFCApplication1Doc 的主调度接口
+	
+	[ uuid(064A9068-DCAB-4CD9-B7EB-003DAE76AAE6) ]
+	dispinterface IMFCApplication1
+	{
+		properties:
+			
+		methods:
+	};
+
+	//  CMFCApplication1Doc 的类信息
+	
+	[ uuid(44A81291-A711-4573-A3EE-2CE0A5A1BEEE) ]
+	coclass MFCApplication1
+	{
+		[default] dispinterface IMFCApplication1;
+	};
+};

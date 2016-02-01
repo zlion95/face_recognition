@@ -1,0 +1,23 @@
+﻿Build started 2016/1/27 20:23:03.
+     1>Project "C:\Users\zengzhishi\Documents\Visual Studio 2013\Projects\MFCApplication1\MFCApplication1\MFCApplication1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\MFCApplication1.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ADDMES.cpp
+         ADDMES.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /IDebug\ /nologo /fo"Debug\MFCApplication1.res" MFCApplication1.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\zengzhishi\Documents\Visual Studio 2013\Projects\MFCApplication1\Debug\MFCApplication1.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\Users\zengzhishi\Documents\Visual Studio 2013\Projects\MFCApplication1\Debug\MFCApplication1.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\zengzhishi\Documents\Visual Studio 2013\Projects\MFCApplication1\Debug\MFCApplication1.lib" /MACHINE:X86 Debug\MFCApplication1.res
+         Debug\ADDMES.obj
+         Debug\DIANMING.obj
+         Debug\DlgProxy.obj
+         Debug\MFCApplication1.obj
+         Debug\MFCApplication1Dlg.obj
+         Debug\stdafx.obj
+         MFCApplication1.vcxproj -> C:\Users\zengzhishi\Documents\Visual Studio 2013\Projects\MFCApplication1\Debug\MFCApplication1.exe
+       RegisterOutput:
+         "C:\Users\zengzhishi\Documents\Visual Studio 2013\Projects\MFCApplication1\Debug\MFCApplication1.exe" /RegServer
+     1>Done Building Project "C:\Users\zengzhishi\Documents\Visual Studio 2013\Projects\MFCApplication1\MFCApplication1\MFCApplication1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:19.83

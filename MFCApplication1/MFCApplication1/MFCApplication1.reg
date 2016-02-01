@@ -1,0 +1,17 @@
+REGEDIT
+; 此 .REG 文件可能由 SETUP 程序使用。
+;   如果 SETUP 程序不可用，则调用
+;   CWinApp::RegisterShellFileTypes 和 COleObjectFactory::UpdateRegistryAll
+;   在 InitInstance 中对下列项自动进行注册。
+
+
+HKEY_CLASSES_ROOT\MFCApplication1.Application = MFCApplication1 Application
+
+
+HKEY_CLASSES_ROOT\MFCApplication1.Application\CLSID = {44A81291-A711-4573-A3EE-2CE0A5A1BEEE}
+
+HKEY_CLASSES_ROOT\CLSID\{44A81291-A711-4573-A3EE-2CE0A5A1BEEE} = MFCApplication1 Application
+HKEY_CLASSES_ROOT\CLSID\{44A81291-A711-4573-A3EE-2CE0A5A1BEEE}\ProgId = MFCApplication1.Application
+
+
+HKEY_CLASSES_ROOT\CLSID\{44A81291-A711-4573-A3EE-2CE0A5A1BEEE}\LocalServer32 = MFCApplication1.EXE
